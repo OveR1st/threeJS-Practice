@@ -1,0 +1,36 @@
+body {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+}
+
+.header {
+  background-color: skyblue;
+}
+
+.createControls {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.canvas {
+  width: 100%;
+  min-height: 600px;
+  max-height: 780px;
+}
+
+.ListFigures {
+  margin: 20px;
+  padding: 0px;
+}
+
+.ListFigures li {
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}

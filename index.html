@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>ThreeJS Figures</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="createControls">
+        <select id="select" name="select">
+          <option value="cube" selected>Cube</option>
+          <option value="sphere">Sphere</option>
+          <option value="piramid">Pyramid</option>
+        </select>
+        <input id="scale" type="text" value="5" />
+        <button id="create" type="button">Сreate</button>
+      </div>
+    </div>
+
+    <canvas id="canvas" class="canvas"></canvas>
+
+    <div class="footer">
+      <ol id="ListFigures" class="ListFigures"></ol>
+    </div>
+
+    <script src="js/three.min.js"></script>
+    <script src="js/OrbitControls.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
