@@ -1,4 +1,5 @@
 const canvas = document.getElementById("canvas");
+console.log(canvas);
 canvas.setAttribute("height", canvas.offsetHeight);
 canvas.setAttribute("width", canvas.offsetWidth);
 
